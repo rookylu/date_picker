@@ -1,5 +1,6 @@
 # Install hook code here
 require 'fileutils'
+
 puts "Copying files..."
 asset_dir = File.join(File.dirname(__FILE__),"assets")
 rails_root = File.join(File.dirname(__FILE__),"..","..","..")

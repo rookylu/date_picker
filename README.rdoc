@@ -5,7 +5,7 @@ A plugin that packages My97datepicker with sensible default styles and settings.
 
 Simply add the class 'datepicker' to any textbox you want a calendar for.
 
-Suport IE FF...
+Suport IE FF Chorme...
 
 Installation
 ============
