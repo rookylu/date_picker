@@ -1,0 +1,29 @@
+DatePicker
+================
+
+A plugin that packages My97datepicker with sensible default styles and settings.
+
+Simply add the class 'datepicker' to any textbox you want a calendar for.
+
+Suport IE FF...
+
+Installation
+============
+
+1. Install the datepicker plugin from github:
+
+        ./script/plugin install git://github.com/lucipher/date_picker
+
+2. Add `WdatePicker.js` and `datepicker.js` to your javascripts in your default layout:
+
+	 <%= javascript_include_tag './DatePicker/WdatePicker','datepicker' -%>
+
+Example
+=======
+
+Just add the CSS class 'datepicker' to any textbox to get a datepicker for it.
+
+        <%= f.text_field :created_at, :class => 'datepicker' %>
+
+
+Copyright (c) 2011 [Lucipher], released under the MIT license
